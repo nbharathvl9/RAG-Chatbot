@@ -3,13 +3,13 @@ import numpy as np
 import torch
 import streamlit as st
 from sentence_transformers import SentenceTransformer
-from pypdf import PdfReader
+from PyPDF2 import PdfReader
 from groq import Groq
 import tempfile
 import os
 
 # Set up the Groq client with your API key
-client = Groq(api_key="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")
+client = Groq(api_key="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")
 
 # Initialize sentence transformer model for embedding
 embed_model = SentenceTransformer("all-MiniLM-L6-v2")
