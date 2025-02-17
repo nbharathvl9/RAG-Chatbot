@@ -1,0 +1,10 @@
+faiss-cpu
+numpy
+torch
+sentence-transformers
+pypdf
+pdfplumber
+pytesseract
+pdf2image
+groq
+openai
